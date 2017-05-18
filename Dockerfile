@@ -37,4 +37,4 @@ RUN \
 
 VOLUME ["/config"]
 
-ENTRYPOINT ["rclone"]
+CMD ["rclone"]
